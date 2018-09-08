@@ -7,8 +7,8 @@ RUN echo 'local_enable=NO' > /etc/vsftpd/vsftpd.conf \
     && echo 'local_umask=0444' >> /etc/vsftpd/vsftpd.conf \
     && echo 'seccomp_sandbox=NO' >> /etc/vsftpd/vsftpd.conf \
     && echo 'pasv_enable=Yes' >> /etc/vsftpd/vsftpd.conf \
-    && echo 'pasv_max_port=10100' >> /etc/vsftpd/vsftpd.conf \
-    && echo 'pasv_min_port=10090' >> /etc/vsftpd/vsftpd.conf \
+    && echo 'pasv_max_port=11000' >> /etc/vsftpd/vsftpd.conf \
+    && echo 'pasv_min_port=10000' >> /etc/vsftpd/vsftpd.conf \
     && echo 'hide_ids=YES' >> /etc/vsftpd/vsftpd.conf \
     && echo '' >> /etc/vsftpd/vsftpd.conf \
     && echo 'listen=NO' >> /etc/vsftpd/vsftpd.conf \
